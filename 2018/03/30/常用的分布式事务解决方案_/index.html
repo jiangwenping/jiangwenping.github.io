@@ -83,18 +83,18 @@
 
 
 
-<meta name="description" content="常用的分布式事务解决方案https://blog.csdn.net/u010425776/article/details/79516298[TOC] 什么是事务？ -事务由一组操作构成，我们希望这组操作能够全部正确执行，如果这一组操作中的任意一个步骤发生错误，那么就需要回滚之前已经完成的操作。也就是同一个事务中的所有操作，要么全都正确执行，要么全都不要执行 事务的四大特性 ACID说到事务，就不得">
+<meta name="description" content="什么是事务？&amp;emsp;事务由一组操作构成，我们希望这组操作能够全部正确执行，如果这一组操作中的任意一个步骤发生错误，那么就需要回滚之前已经完成的操作。也就是同一个事务中的所有操作，要么全都正确执行，要么全都不要执行">
 <meta name="keywords" content="npm,hexo,github">
 <meta property="og:type" content="article">
 <meta property="og:title" content="常用的分布式事务解决方案">
 <meta property="og:url" content="http://www.wpspace.cn/2018/03/30/常用的分布式事务解决方案_/index.html">
 <meta property="og:site_name" content="青果的博客">
-<meta property="og:description" content="常用的分布式事务解决方案https://blog.csdn.net/u010425776/article/details/79516298[TOC] 什么是事务？ -事务由一组操作构成，我们希望这组操作能够全部正确执行，如果这一组操作中的任意一个步骤发生错误，那么就需要回滚之前已经完成的操作。也就是同一个事务中的所有操作，要么全都正确执行，要么全都不要执行 事务的四大特性 ACID说到事务，就不得">
+<meta property="og:description" content="什么是事务？&amp;emsp;事务由一组操作构成，我们希望这组操作能够全部正确执行，如果这一组操作中的任意一个步骤发生错误，那么就需要回滚之前已经完成的操作。也就是同一个事务中的所有操作，要么全都正确执行，要么全都不要执行">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-30T07:33:14.319Z">
+<meta property="og:updated_time" content="2018-04-04T06:56:21.947Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="常用的分布式事务解决方案">
-<meta name="twitter:description" content="常用的分布式事务解决方案https://blog.csdn.net/u010425776/article/details/79516298[TOC] 什么是事务？ -事务由一组操作构成，我们希望这组操作能够全部正确执行，如果这一组操作中的任意一个步骤发生错误，那么就需要回滚之前已经完成的操作。也就是同一个事务中的所有操作，要么全都正确执行，要么全都不要执行 事务的四大特性 ACID说到事务，就不得">
+<meta name="twitter:description" content="什么是事务？&amp;emsp;事务由一组操作构成，我们希望这组操作能够全部正确执行，如果这一组操作中的任意一个步骤发生错误，那么就需要回滚之前已经完成的操作。也就是同一个事务中的所有操作，要么全都正确执行，要么全都不要执行">
 
 
 
@@ -235,16 +235,6 @@
         </li>
       
         
-        <li class="menu-item menu-item-日程表">
-          <a href="/schedule/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
-            
-            日程表
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-站点地图">
           <a href="/sitemap.xml" rel="section">
             
@@ -316,7 +306,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-30T15:30:16+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-30T15:30:00+08:00">
                 2018-03-30
               </time>
             
@@ -352,6 +342,17 @@
 
           
             
+              <span class="post-comments-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              
+                <a href="/2018/03/30/常用的分布式事务解决方案_/#SOHUCS" itemprop="discussionUrl">
+                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="2018/03/30/常用的分布式事务解决方案_/" itemprop="commentsCount"></span>
+                </a>
+              
+            
           
 
           
@@ -376,27 +377,13 @@
       
 
       
-        <h1 id="常用的分布式事务解决方案"><a href="#常用的分布式事务解决方案" class="headerlink" title="常用的分布式事务解决方案"></a>常用的分布式事务解决方案</h1><h2 id="https-blog-csdn-net-u010425776-article-details-79516298"><a href="#https-blog-csdn-net-u010425776-article-details-79516298" class="headerlink" title="https://blog.csdn.net/u010425776/article/details/79516298"></a><a href="https://blog.csdn.net/u010425776/article/details/79516298" target="_blank" rel="noopener">https://blog.csdn.net/u010425776/article/details/79516298</a></h2><p>[TOC]</p>
-<h2 id="什么是事务？"><a href="#什么是事务？" class="headerlink" title="什么是事务？"></a>什么是事务？</h2><p> -事务由一组操作构成，我们希望这组操作能够全部正确执行，如果这一组操作中的任意一个步骤发生错误，那么就需要回滚之前已经完成的操作。也就是同一个事务中的所有操作，要么全都正确执行，要么全都不要执行</p>
-<h2 id="事务的四大特性-ACID"><a href="#事务的四大特性-ACID" class="headerlink" title="事务的四大特性 ACID"></a>事务的四大特性 ACID</h2><p>说到事务，就不得不提一下事务著名的四大特性。</p>
+        <h2 id="什么是事务？"><a href="#什么是事务？" class="headerlink" title="什么是事务？"></a>什么是事务？</h2><p>&emsp;事务由一组操作构成，我们希望这组操作能够全部正确执行，如果这一组操作中的任意一个步骤发生错误，那么就需要回滚之前已经完成的操作。也就是同一个事务中的所有操作，要么全都正确执行，要么全都不要执行<br><a id="more"></a></p>
+<h2 id="事务的四大特性-ACID"><a href="#事务的四大特性-ACID" class="headerlink" title="事务的四大特性 ACID"></a>事务的四大特性 ACID</h2><p>说到事务，就不得不提一下事务著名的四大特性。    </p>
 <ul>
-<li><p>原子性</p>
-<p> 原子性要求，事务是一个不可分割的执行单元，事务中的所有操作要么全都执行，要么全都不执行。</p>
-</li>
-</ul>
-<ul>
-<li><p>一致性</p>
-<p> 一致性要求，事务在开始前和结束后，数据库的完整性约束没有被破坏。</p>
-</li>
-</ul>
-<ul>
-<li><p>隔离性</p>
-<p> 事务的执行是相互独立的，它们不会相互干扰，一个事务不会看到另一个正在运行过程中的事务的数据。</p>
-</li>
-</ul>
-<ul>
-<li><p>持久性</p>
-<p> 持久性要求，一个事务完成之后，事务的执行结果必须是持久化保存的。即使数据库发生崩溃，在数据库恢复后事务提交的结果仍然不会丢失。</p>
+<li>原子性<br> 原子性要求，事务是一个不可分割的执行单元，事务中的所有操作要么全都执行，要么全都不执行。</li>
+<li>一致性<br> 一致性要求，事务在开始前和结束后，数据库的完整性约束没有被破坏。</li>
+<li>隔离性<br> 事务的执行是相互独立的，它们不会相互干扰，一个事务不会看到另一个正在运行过程中的事务的数据。 </li>
+<li><p>持久性<br> 持久性要求，一个事务完成之后，事务的执行结果必须是持久化保存的。即使数据库发生崩溃，在数据库恢复后事务提交的结果仍然不会丢失。</p>
 <blockquote>
 <p>注意：事务只能保证数据库的高可靠性，即数据库本身发生问题后，事务提交后的数据仍然能恢复；而如果不是数据库本身的故障，如硬盘损坏了，那么事务提交的数据可能就丢失了。这属于『高可用性』的范畴。因此，事务只能保证数据库的『高可靠性』，而『高可用性』需要整个系统共同配合实现。</p>
 </blockquote>
@@ -407,61 +394,32 @@
 <p>##事务并发执行会出现的问题</p>
 <p>我们先来看一下在不同的隔离级别下，数据库可能会出现的问题：</p>
 <ol>
-<li><p>更新丢失</p>
-<p>当有两个并发执行的事务，更新同一行数据，那么有可能一个事务会把另一个事务的更新覆盖掉。<br>当数据库没有加任何锁操作的情况下会发生。</p>
-</li>
-</ol>
-<ol start="2">
-<li><p>脏读</p>
-<p>一个事务读到另一个尚未提交的事务中的数据。<br>该数据可能会被回滚从而失效。<br>如果第一个事务拿着失效的数据去处理那就发生错误了。</p>
-</li>
-</ol>
-<ol start="3">
-<li><p>不可重复读</p>
-<p>不可重复度的含义：一个事务对同一行数据读了两次，却得到了不同的结果。它具体分为如下两种情况：</p>
-<pre><code>虚读：在事务1两次读取同一记录的过程中，事务2对该记录进行了修改，从而事务1第二次读到了不一样的记录。
+<li>更新丢失<br><br>当有两个并发执行的事务，更新同一行数据，那么有可能一个事务会把另一个事务的更新覆盖掉。<br>当数据库没有加任何锁操作的情况下会发生。 </li>
+<li>脏读<br><br>一个事务读到另一个尚未提交的事务中的数据。<br>该数据可能会被回滚从而失效。<br>如果第一个事务拿着失效的数据去处理那就发生错误了。  </li>
+<li>不可重复读<br><br>不可重复度的含义：一个事务对同一行数据读了两次，却得到了不同的结果。它具体分为如下两种情况：<pre><code>虚读：在事务1两次读取同一记录的过程中，事务2对该记录进行了修改，从而事务1第二次读到了不一样的记录。
 幻读：事务1在两次查询的过程中，事务2对该表进行了插入、删除操作，从而事务1第二次查询的结果发生了变化。
 </code></pre><blockquote>
 <p>不可重复读 与 脏读 的区别？<br>脏读读到的是尚未提交的数据，而不可重复读读到的是已经提交的数据，只不过在两次读的过程中数据被另一个事务改过了。</p>
 </blockquote>
-<p>##数据库的四种隔离级别<br>数据库一共有如下四种隔离级别：</p>
-</li>
-</ol>
-<ol>
-<li><p>Read uncommitted 读未提交</p>
-<p>在该级别下，一个事务对一行数据修改的过程中，不允许另一个事务对该行数据进行修改，但允许另一个事务对该行数据读。<br>因此本级别下，不会出现更新丢失，但会出现脏读、不可重复读。</p>
-</li>
-</ol>
-<ol start="2">
-<li><p>Read committed 读提交</p>
-<p>在该级别下，未提交的写事务不允许其他事务访问该行，因此不会出现脏读；但是读取数据的事务允许其他事务的访问该行数据，因此会出现不可重复读的情况。</p>
-</li>
-</ol>
-<ol start="3">
-<li><p>Repeatable read 重复读</p>
-<p>在该级别下，读事务禁止写事务，但允许读事务，因此不会出现同一事务两次读到不同的数据的情况（不可重复读），且写事务禁止其他一切事务。</p>
-</li>
-</ol>
-<ol start="4">
-<li><p>Serializable 序列化</p>
-<p>该级别要求所有事务都必须串行执行，因此能避免一切因并发引起的问题，但效率很低。</p>
-</li>
+##数据库的四种隔离级别<br>数据库一共有如下四种隔离级别：</li>
+<li>Read uncommitted 读未提交<br><br>在该级别下，一个事务对一行数据修改的过程中，不允许另一个事务对该行数据进行修改，但允许另一个事务对该行数据读。<br>因此本级别下，不会出现更新丢失，但会出现脏读、不可重复读。</li>
+<li>Read committed 读提交<br><br>在该级别下，未提交的写事务不允许其他事务访问该行，因此不会出现脏读；但是读取数据的事务允许其他事务的访问该行数据，因此会出现不可重复读的情况。</li>
+<li>Repeatable read 重复读<br><br>在该级别下，读事务禁止写事务，但允许读事务，因此不会出现同一事务两次读到不同的数据的情况（不可重复读），且写事务禁止其他一切事务。</li>
+<li>Serializable 序列化<br><br>该级别要求所有事务都必须串行执行，因此能避免一切因并发引起的问题，但效率很低。</li>
 </ol>
 <p>隔离级别越高，越能保证数据的完整性和一致性，但是对并发性能的影响也越大。对于多数应用程序，可以优先考虑把数据库系统的隔离级别设为Read Committed。它能够避免脏读取，而且具有较好的并发性能。尽管它会导致不可重复读、幻读和第二类丢失更新这些并发问题，在可能出现这类问题的个别场合，可以由应用程序采用悲观锁或乐观锁来控制。</p>
 <hr>
 <p>##什么是分布式事务？<br>到此为止，所介绍的事务都是基于单数据库的本地事务，目前的数据库仅支持单库事务，并不支持跨库事务。而随着微服务架构的普及，一个大型业务系统往往由若干个子系统构成，这些子系统又拥有各自独立的数据库。往往一个业务流程需要由多个子系统共同完成，而且这些操作可能需要在一个事务中完成。在微服务系统中，这些业务场景是普遍存在的。此时，我们就需要在数据库之上通过某种手段，实现支持跨数据库的事务支持，这也就是大家常说的“分布式事务”。</p>
 <p>这里举一个分布式事务的典型例子——用户下单过程。<br>当我们的系统采用了微服务架构后，一个电商系统往往被拆分成如下几个子系统：商品系统、订单系统、支付系统、积分系统等。整个下单的过程如下：</p>
 <ol>
-<li>用户通过商品系统浏览商品，他看中了某一项商品，便点击下单</li>
-</ol>
-<ol start="2">
-<li>此时订单系统会生成一条订单</li>
-</ol>
-<ol start="3">
-<li>订单创建成功后，支付系统提供支付功能</li>
-</ol>
-<ol start="4">
-<li>当支付完成后，由积分系统为该用户增加积分</li>
+<li><p>用户通过商品系统浏览商品，他看中了某一项商品，便点击下单 </p>
+</li>
+<li><p>此时订单系统会生成一条订单  </p>
+</li>
+<li><p>订单创建成功后，支付系统提供支付功能 </p>
+</li>
+<li><p>当支付完成后，由积分系统为该用户增加积分</p>
+</li>
 </ol>
 <p>上述步骤2、3、4需要在一个事务中完成。对于传统单体应用而言，实现事务非常简单，只需将这三个步骤放在一个方法A中，再用Spring的@Transactional注解标识该方法即可。Spring通过数据库的事务支持，保证这些步骤要么全都执行完成，要么全都不执行。但在这个微服务架构中，这三个步骤涉及三个系统，涉及三个数据库，此时我们必须在数据库和应用系统之间，通过某项黑科技，实现分布式事务的支持。</p>
 <p>##CAP理论<br>CAP理论说的是：在一个分布式系统中，最多只能满足C、A、P中的两个需求。</p>
@@ -470,13 +428,9 @@
 <li><p>C：Consistency 一致性</p>
 <p> 同一数据的多个副本是否实时相同。</p>
 </li>
-</ul>
-<ul>
 <li><p>A：Availability 可用性</p>
-<p> 可用性：一定时间内 &amp; 系统返回一个明确的结果 则称为该系统可用。</p>
+<p> 可用性：一定时间内 &amp; 系统返回一个明确的结果 则称为该系统可用。  </p>
 </li>
-</ul>
-<ul>
 <li><p>P：Partition tolerance 分区容错性</p>
 <p> 将同一服务分布在多个系统中，从而保证某一个系统宕机，仍然有其他系统提供相同的服务。</p>
 </li>
@@ -487,25 +441,24 @@
 <li><p>提升整体性能</p>
 <p> 当业务量猛增，单个服务器已经无法满足我们的业务需求的时候，就需要使用分布式系统，使用多个节点提供相同的功能，从而整体上提升系统的性能，这就是使用分布式系统的第一个原因。</p>
 </li>
-</ul>
-<ul>
 <li><p>实现分区容错性</p>
 <p> 单一节点 或 多个节点处于相同的网络环境下，那么会存在一定的风险，万一该机房断电、该地区发生自然灾害，那么业务系统就全面瘫痪了。为了防止这一问题，采用分布式系统，将多个子系统分布在不同的地域、不同的机房中，从而保证系统高可用性。</p>
 </li>
 </ul>
 <p>这说明分区容错性是分布式系统的根本，如果分区容错性不能满足，那使用分布式系统将失去意义。</p>
 <p>此外，可用性对业务系统也尤为重要。在大谈用户体验的今天，如果业务系统时常出现“系统异常”、响应时间过长等情况，这使得用户对系统的好感度大打折扣，在互联网行业竞争激烈的今天，相同领域的竞争者不甚枚举，系统的间歇性不可用会立马导致用户流向竞争对手。因此，我们只能通过牺牲一致性来换取系统的可用性和分区容错性。这也就是下面要介绍的BASE理论。</p>
-<p>##BASE理论<br>CAP理论告诉我们一个悲惨但不得不接受的事实——我们只能在C、A、P中选择两个条件。而对于业务系统而言，我们往往选择牺牲一致性来换取系统的可用性和分区容错性。不过这里要指出的是，所谓的“牺牲一致性”并不是完全放弃数据一致性，而是牺牲强一致性换取弱一致性。下面来介绍下BASE理论。</p>
+<p>##BASE理论<br>CAP理论告诉我们一个悲惨但不得不接受的事实——我们只能在C、A、P中选择两个条件。而对于业务系统而言，我们往往选择牺牲一致性来换取系统的可用性和分区容错性。不过这里要指出的是，所谓的“牺牲一致性”并不是完全放弃数据一致性，而是牺牲强一致性换取弱一致性。下面来介绍下BASE理论。   </p>
 <ul>
-<li>BA：Basic Available 基本可用</li>
+<li><p>BA：Basic Available 基本可用</p>
+<ul>
+<li>整个系统在某些不可抗力的情况下，仍然能够保证“可用性”，即一定时间内仍然能够返回一个明确的结果。只不过“基本可用”和“高可用”的区别是：</li>
 </ul>
-<pre><code>- 整个系统在某些不可抗力的情况下，仍然能够保证“可用性”，即一定时间内仍然能够返回一个明确的结果。只不过“基本可用”和“高可用”的区别是：
-
-       “一定时间”可以适当延长
-       当举行大促时，响应时间可以适当延长
-       给部分用户返回一个降级页面
-       给部分用户直接返回一个降级页面，从而缓解服务器压力。但要注意，返回降级页面仍然是返回明确结果。
-</code></pre><ul>
+<blockquote>
+<p>“一定时间”可以适当延长当举行大促时，响应时间可以适当延长给部分用户返回一个降级页面给部分用户直接返回一个降级页面，从而缓解服务器压力。但要注意，返回降级页面仍然是返回明确结果。</p>
+</blockquote>
+</li>
+</ul>
+<ul>
 <li><p>S：Soft State：柔性状态</p>
 <p> 同一数据的不同副本的状态，可以不需要实时一致。</p>
 </li>
@@ -516,17 +469,16 @@
 </li>
 </ul>
 <p>##酸碱平衡</p>
-<p>ACID能够保证事务的强一致性，即数据是实时一致的。这在本地事务中是没有问题的，在分布式事务中，强一致性会极大影响分布式系统的性能，因此分布式系统中遵循BASE理论即可。但分布式系统的不同业务场景对一致性的要求也不同。如交易场景下，就要求强一致性，此时就需要遵循ACID理论，而在注册成功后发送短信验证码等场景下，并不需要实时一致，因此遵循BASE理论即可。因此要根据具体业务场景，在ACID和BASE之间寻求平衡。</p>
+<p>&emsp;ACID能够保证事务的强一致性，即数据是实时一致的。这在本地事务中是没有问题的，在分布式事务中，强一致性会极大影响分布式系统的性能，因此分布式系统中遵循BASE理论即可。但分布式系统的不同业务场景对一致性的要求也不同。如交易场景下，就要求强一致性，此时就需要遵循ACID理论，而在注册成功后发送短信验证码等场景下，并不需要实时一致，因此遵循BASE理论即可。因此要根据具体业务场景，在ACID和BASE之间寻求平衡。</p>
 <h2 id="分布式事务协议"><a href="#分布式事务协议" class="headerlink" title="分布式事务协议"></a>分布式事务协议</h2><p>###两阶段提交协议 2PC</p>
-<p>分布式系统的一个难点是如何保证架构下多个节点在进行事务性操作的时候保持一致性。为实现这个目的，二阶段提交算法的成立基于以下假设：</p>
+<p>&emsp;分布式系统的一个难点是如何保证架构下多个节点在进行事务性操作的时候保持一致性。为实现这个目的，二阶段提交算法的成立基于以下假设：</p>
 <ul>
-<li>该分布式系统中，存在一个节点作为协调者(Coordinator)，其他节点作为参与者(Cohorts)。且节点之间可以进行网络通信。</li>
-</ul>
-<ul>
-<li>所有节点都采用预写式日志，且日志被写入后即被保持在可靠的存储设备上，即使节点损坏不会导致日志数据的消失。</li>
-</ul>
-<ul>
-<li>所有节点不会永久性损坏，即使损坏后仍然可以恢复。</li>
+<li><p>该分布式系统中，存在一个节点作为协调者(Coordinator)，其他节点作为参与者(Cohorts)。且节点之间可以进行网络通信。</p>
+</li>
+<li><p>所有节点都采用预写式日志，且日志被写入后即被保持在可靠的存储设备上，即使节点损坏不会导致日志数据的消失。</p>
+</li>
+<li><p>所有节点不会永久性损坏，即使损坏后仍然可以恢复。</p>
+</li>
 </ul>
 <ol>
 <li><p><strong>第一阶段（投票阶段）：</strong></p>
@@ -732,6 +684,35 @@ Cancel
     
 
     
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="青果 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="青果 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
 
     
 
@@ -792,6 +773,11 @@ Cancel
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="SOHUCS"></div>
+    </div>
 
   
 
@@ -900,6 +886,24 @@ Cancel
 
           
           
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                友情链接
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.guoqingchuang.com/" title="可乐博客" target="_blank">可乐博客</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.neverbug.top/" title="文博博客" target="_blank">文博博客</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
 
           
 
@@ -916,7 +920,7 @@ Cancel
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#常用的分布式事务解决方案"><span class="nav-number">1.</span> <span class="nav-text">常用的分布式事务解决方案</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#https-blog-csdn-net-u010425776-article-details-79516298"><span class="nav-number">1.1.</span> <span class="nav-text">https://blog.csdn.net/u010425776/article/details/79516298</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是事务？"><span class="nav-number">1.2.</span> <span class="nav-text">什么是事务？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#事务的四大特性-ACID"><span class="nav-number">1.3.</span> <span class="nav-text">事务的四大特性 ACID</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#事务的隔离级别"><span class="nav-number">1.4.</span> <span class="nav-text">事务的隔离级别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分布式事务协议"><span class="nav-number">1.5.</span> <span class="nav-text">分布式事务协议</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是事务？"><span class="nav-number">1.</span> <span class="nav-text">什么是事务？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#事务的四大特性-ACID"><span class="nav-number">2.</span> <span class="nav-text">事务的四大特性 ACID</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#事务的隔离级别"><span class="nav-number">3.</span> <span class="nav-text">事务的隔离级别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分布式事务协议"><span class="nav-number">4.</span> <span class="nav-text">分布式事务协议</span></a></li></ol></div>
             
 
           </div>
@@ -1001,6 +1005,8 @@ Cancel
   
 
 
+  
+
 
 
 
@@ -1039,6 +1045,11 @@ Cancel
   
   
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
   
 
 
@@ -1098,6 +1109,21 @@ Cancel
 
 
 
+
+  
+    <script type="text/javascript">
+    (function(){
+      var appid = 'cytxUalCF';
+      var conf = 'ca28e6a80e2a1142e812feebc3da182d';
+      var width = window.innerWidth || document.documentElement.clientWidth;
+      if (width < 960) {
+      window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){
+        window.changyan.api.config({appid:appid,conf:conf})});
+      }
+    })();
+    </script>
+    <script type="text/javascript" src="https://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script>
+  
 
 
 
